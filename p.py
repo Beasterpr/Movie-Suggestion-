@@ -96,13 +96,13 @@ if st.button("Recommend"):
         movie_info = info(selectboxs)
         st.title(movie_info[0])
         st.markdown(f"**Overview:** {movie_info[3]}")
-        col3 ,col4 = st.columns([1,6])
+        col3 ,col4 = st.columns([1,8])
         with col3:
             st.markdown("**Release Date:**")
         with col4:
             st.markdown(f"<h6 style='color:green;'>{movie_info[1]}</h6>",unsafe_allow_html=True)
         st.markdown(f"**Tagline:** {movie_info[2]}")
-        col5, col6 = st.columns([1, 12])   
+        col5, col6 = st.columns([1, 15])   
         with col5:
             st.markdown("**Rating:**")
         with col6:
