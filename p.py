@@ -96,17 +96,9 @@ if st.button("Recommend"):
         movie_info = info(selectboxs)
         st.title(movie_info[0])
         st.markdown(f"**Overview:** {movie_info[3]}")
-        col3 ,col4 = st.columns([1,8])
-        with col3:
-            st.markdown("**Release Date:**")
-        with col4:
-            st.markdown(f"<h6 style='color:green;'>{movie_info[1]}</h6>",unsafe_allow_html=True)
+        st.markdown(f"<h6 style='color:green;'>{movie_info[1]}</h6>",unsafe_allow_html=True)
         st.markdown(f"**Tagline:** {movie_info[2]}")
-        col5, col6 = st.columns([1, 15])   
-        with col5:
-            st.markdown("**Rating:**")
-        with col6:
-            st.markdown(f"<h6 style='color:green;'>{movie_info[4]:.2f}</h6>", unsafe_allow_html=True)
+        st.markdown(f"<h6 style='color:green;'>{movie_info[4]:.2f}</h6>", unsafe_allow_html=True)
         st.markdown(f"**Genre:** {', '.join(map(str, movie_info[5]))}")
 
     # Display recommendations in columns
@@ -117,17 +109,9 @@ if st.button("Recommend"):
         with st.expander("Movie Info"):
             movie_info = info(recommended[0])  # Call info() once and store the result
             st.markdown(f"**Overview:** {movie_info[3]}")
-            col10,col11 = st.columns([1,2])
-            with col10:
-                st.markdown(f"**Release Date:**")
-            with col11:
-                st.markdown(f"<h6 style='color:green;'>{movie_info[1]}</h6>",unsafe_allow_html=True)
+            st.markdown(f"<h6 style='color:green;'>{movie_info[1]}</h6>",unsafe_allow_html=True)
             st.markdown(f"**Tagline:** {movie_info[2]}")
-            col12,col13 = st.columns([1,5])
-            with col12:
-                st.markdown(f"**Rating:**")
-            with col13:
-                st.markdown(f"<h6 style='color:green;'>{movie_info[4]}</h6>",unsafe_allow_html=True)
+            st.markdown(f"<h6 style='color:green;'>{movie_info[4]}</h6>",unsafe_allow_html=True)
             st.markdown(f"**Genre:** {', '.join(map(str, movie_info[5]))}")
     
     with col8:
@@ -136,17 +120,9 @@ if st.button("Recommend"):
         with st.expander("Movie Info"):
             movie_info = info(recommended[1])
             st.markdown(f"**Overview:** {movie_info[3]}")
-            col14,col15 = st.columns([1,2])
-            with col14:
-                st.markdown(f"**Release Date:**")
-            with col15:
-                st.markdown(f"<h6 style='color:green;'>{movie_info[1]}</h6>",unsafe_allow_html=True)
+            st.markdown(f"<h6 style='color:green;'>{movie_info[1]}</h6>",unsafe_allow_html=True)
             st.markdown(f"**Tagline:** {movie_info[2]}")
-            col16,col17 = st.columns([1,5])
-            with col16:
-                st.markdown(f"**Rating:**")
-            with col17:
-                st.markdown(f"<h6 style='color:green;'>{movie_info[4]}</h6>",unsafe_allow_html=True)
+            st.markdown(f"<h6 style='color:green;'>{movie_info[4]}</h6>",unsafe_allow_html=True)
             st.markdown(f"**Genre:** {', '.join(map(str, movie_info[5]))}")
     
 
@@ -156,17 +132,9 @@ if st.button("Recommend"):
         with st.expander("Movie Info"):
             movie_info = info(recommended[2]) 
             st.markdown(f"**Overview:** {movie_info[3]}")
-            col18,col19 = st.columns([1,2])
-            with col18:
-                st.markdown(f"**Release Date:**")
-            with col19:
-                st.markdown(f"<h6 style='color:green;'>{movie_info[1]}</h6>",unsafe_allow_html=True)
+            st.markdown(f"<h6 style='color:green;'>{movie_info[1]}</h6>",unsafe_allow_html=True)
             st.markdown(f"**Tagline:** {movie_info[2]}")
-            col20,col21 = st.columns([1,5])
-            with col20:
-                st.markdown(f"**Rating:**")
-            with col21:
-                st.markdown(f"<h6 style='color:green;'>{movie_info[4]}</h6>",unsafe_allow_html=True)
+            st.markdown(f"<h6 style='color:green;'>{movie_info[4]}</h6>",unsafe_allow_html=True)
             st.markdown(f"**Genre:** {', '.join(map(str, movie_info[5]))}")
     
 
@@ -177,17 +145,9 @@ if st.button("Recommend"):
         with st.expander("Movie Info"):
             movie_info = info(recommended[3])
             st.markdown(f"**Overview:** {movie_info[3]}")
-            col25,col26 = st.columns([1,2])
-            with col25:
-                st.markdown(f"**Release Date:**")
-            with col26:
-                st.markdown(f"<h6 style='color:green;'>{movie_info[1]}</h6>",unsafe_allow_html=True)
+            st.markdown(f"<h6 style='color:green;'>{movie_info[1]}</h6>",unsafe_allow_html=True)
             st.markdown(f"**Tagline:** {movie_info[2]}")
-            col27,col28 = st.columns([1,5])
-            with col27:
-                st.markdown(f"**Rating:**")
-            with col28:
-                st.markdown(f"<h6 style='color:green;'>{movie_info[4]}</h6>",unsafe_allow_html=True)
+            st.markdown(f"<h6 style='color:green;'>{movie_info[4]}</h6>",unsafe_allow_html=True)
             st.markdown(f"**Genre:** {', '.join(map(str, movie_info[5]))}")
     
     
@@ -197,17 +157,9 @@ if st.button("Recommend"):
         with st.expander("Movie Info"):
             movie_info = info(recommended[4])
             st.markdown(f"**Overview:** {movie_info[3]}")
-            col29,col30 = st.columns([1,2])
-            with col29:
-                st.markdown(f"**Release Date:**")
-            with col30:
-                st.markdown(f"<h6 style='color:green;'>{movie_info[1]}</h6>",unsafe_allow_html=True)
+            st.markdown(f"<h6 style='color:green;'>{movie_info[1]}</h6>",unsafe_allow_html=True)
             st.markdown(f"**Tagline:** {movie_info[2]}")
-            col31,col32 = st.columns([1,5])
-            with col31:
-                st.markdown(f"**Rating:**")
-            with col32:
-                st.markdown(f"<h6 style='color:green;'>{movie_info[4]}</h6>",unsafe_allow_html=True)
+            st.markdown(f"<h6 style='color:green;'>{movie_info[4]}</h6>",unsafe_allow_html=True)
             st.markdown(f"**Genre:** {', '.join(map(str, movie_info[5]))}")
     
 
@@ -217,17 +169,9 @@ if st.button("Recommend"):
         with st.expander("Movie Info"):
             movie_info = info(recommended[5])
             st.markdown(f"**Overview:** {movie_info[3]}")
-            col33,col34 = st.columns([1,2])
-            with col33:
-                st.markdown(f"**Release Date:**")
-            with col34:
-                st.markdown(f"<h6 style='color:green;'>{movie_info[1]}</h6>",unsafe_allow_html=True)
+            st.markdown(f"<h6 style='color:green;'>{movie_info[1]}</h6>",unsafe_allow_html=True)
             st.markdown(f"**Tagline:** {movie_info[2]}")
-            col35,col36 = st.columns([1,5])
-            with col35:
-                st.markdown(f"**Rating:**")
-            with col36:
-                st.markdown(f"<h6 style='color:green;'>{movie_info[4]}</h6>",unsafe_allow_html=True)
+            st.markdown(f"<h6 style='color:green;'>{movie_info[4]}</h6>",unsafe_allow_html=True)
             st.markdown(f"**Genre:** {', '.join(map(str, movie_info[5]))}")
     
 
