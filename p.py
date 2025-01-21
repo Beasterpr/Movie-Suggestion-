@@ -107,7 +107,7 @@ if st.button("Recommend"):
             st.markdown("**Rating:**")
         with col6:
             st.markdown(f"<h6 style='color:green;'>{movie_info[4]:.2f}</h6>", unsafe_allow_html=True)
-        st.markdown(f"**Genre:** {", ".join(map(str, movie_info[5]))}")
+        st.markdown(f"**Genre:** {', '.join(map(str, movie_info[5]))}")
 
     # Display recommendations in columns
     col7, col8 , col9 = st.columns(3)
@@ -128,7 +128,7 @@ if st.button("Recommend"):
                 st.markdown(f"**Rating:**")
             with col13:
                 st.markdown(f"<h6 style='color:green;'>{movie_info[4]}</h6>",unsafe_allow_html=True)
-            st.markdown(f"**Genre:** {", ".join(map(str, movie_info[5]))}")
+            st.markdown(f"**Genre:** {', '.join(map(str, movie_info[5]))}")
     
     with col8:
         st.header(recommended[1])
@@ -147,7 +147,7 @@ if st.button("Recommend"):
                 st.markdown(f"**Rating:**")
             with col17:
                 st.markdown(f"<h6 style='color:green;'>{movie_info[4]}</h6>",unsafe_allow_html=True)
-            st.markdown(f"**Genre:** {", ".join(map(str, movie_info[5]))}")
+            st.markdown(f"**Genre:** {', '.join(map(str, movie_info[5]))}")
     
 
     with col9:
@@ -167,7 +167,7 @@ if st.button("Recommend"):
                 st.markdown(f"**Rating:**")
             with col21:
                 st.markdown(f"<h6 style='color:green;'>{movie_info[4]}</h6>",unsafe_allow_html=True)
-            st.markdown(f"**Genre:** {", ".join(map(str, movie_info[5]))}")
+            st.markdown(f"**Genre:** {', '.join(map(str, movie_info[5]))}")
     
 
     col22, col23 , col24 = st.columns(3)
@@ -188,7 +188,7 @@ if st.button("Recommend"):
                 st.markdown(f"**Rating:**")
             with col28:
                 st.markdown(f"<h6 style='color:green;'>{movie_info[4]}</h6>",unsafe_allow_html=True)
-            st.markdown(f"**Genre:** {", ".join(map(str, movie_info[5]))}")
+            st.markdown(f"**Genre:** {', '.join(map(str, movie_info[5]))}")
     
     
     with col23:
@@ -208,7 +208,7 @@ if st.button("Recommend"):
                 st.markdown(f"**Rating:**")
             with col32:
                 st.markdown(f"<h6 style='color:green;'>{movie_info[4]}</h6>",unsafe_allow_html=True)
-            st.markdown(f"**Genre:** {", ".join(map(str, movie_info[5]))}")
+            st.markdown(f"**Genre:** {', '.join(map(str, movie_info[5]))}")
     
 
     with col24:
@@ -228,6 +228,6 @@ if st.button("Recommend"):
                 st.markdown(f"**Rating:**")
             with col36:
                 st.markdown(f"<h6 style='color:green;'>{movie_info[4]}</h6>",unsafe_allow_html=True)
-            st.markdown(f"**Genre:** {", ".join(map(str, movie_info[5]))}")
+            st.markdown(f"**Genre:** {', '.join(map(str, movie_info[5]))}")
     
 
